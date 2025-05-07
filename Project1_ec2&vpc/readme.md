@@ -1,3 +1,13 @@
+## AWS Resource Flow Diagram (Text Representation)
+
+```
+aws_vpc
+   │
+   ├──▶ aws_subnet ──▶ aws_instance
+   ├──▶ aws_internet_gateway
+   ├──▶ aws_security_group
+   └──▶ aws_route_table ──▶ aws_route_table_association ──▶ aws_subnet
+```
 
 # ✅ Detailed Explanation of Each Resource
 
